@@ -1,0 +1,203 @@
+2026-09-28T21:46:50:618 [info]: PacProxyAgent not found
+2026-09-28T21:46:50:618 [debug]: [LogNetworkConfig] Fetching and processing network configuration...
+2026-09-28T21:46:50:618 [info]: [LogNetworkConfig] Network Configuration detected: {
+      "http": {
+        "proxy": "",
+        "proxySupport": "override",
+        "proxyAuthorization": null,
+        "proxyStrictSSL": true,
+        "noProxy": [],
+        "electronFetch": false,
+        "fetchAdditionalSupport": true,
+        "experimental.systemCertificatesV2": false
+      },
+      "gitlab": {
+        "ca": "",
+        "cert": "",
+        "certKey": "",
+        "ignoreCertificateErrors": true
+      }
+    }
+2026-09-28T21:46:50:624 [debug]: [NodeObservabilityService] OpenTelemetry SDK initialized (base URL: https://67713089.otel.gitlab-o11y.com:14318)
+2026-09-28T21:46:52:839 [debug]: [LS startup] Language Server process spawning (attempt 1)
+2026-09-28T21:46:54:419 [debug]: [LS startup] Language Server is running (spawn took 129.7ms, handshake took 1450.7ms, total 1580.3ms)
+2026-09-28T21:46:54:420 [warning]: There is no GitLab account available. Sending empty credentials to GitLab Language Server
+2026-09-28T21:46:54:423 [debug]: Sending 2 existing open text documents to language server
+2026-09-28T21:46:54:427 [debug]: [TerminalManager] Received runCommand request for workflow shell-detection: powershell -NoProfile -Command echo "PSVersion:$($PSVersionTable.PSVersion) PSEdition:$($PSVersionTable.PSEdition)" (silent: true)
+2026-09-28T21:46:54:427 [debug]: [TerminalManager] Creating new terminal for workflow shell-detection
+2026-09-28T21:46:54:428 [info]: handleRegisterCapability: {
+      "id": "629dc16a-9419-49e8-a10c-fe4089e5c656",
+      "method": "workspace/didChangeWatchedFiles",
+      "registerOptions": {
+        "watchers": [
+          {
+            "globPattern": "**/*"
+          }
+        ]
+      }
+    }
+2026-09-28T21:46:54:454 [debug]: [IssuableDataProviderFactory] Using Git extension-based repository provider
+2026-09-28T21:46:54:457 [info]: Extracted urls: []
+2026-09-28T21:46:54:457 [warning]: GitExtensionWrapper is missing repository for file:///c%3A/Users/SNAP
+2026-09-28T21:46:54:458 [warning]: GitExtensionWrapper is missing repository for file:///c%3A/Users/SNAP
+2026-09-28T21:46:54:458 [warning]: GitExtensionWrapper is missing repository for file:///c%3A/Users/SNAP
+2026-09-28T21:46:54:458 [warning]: GitExtensionWrapper is missing repository for file:///c%3A/Users/SNAP
+2026-09-28T21:46:54:458 [warning]: GitExtensionWrapper is missing repository for file:///c%3A/Users/SNAP
+2026-09-28T21:46:54:459 [info]: Found 0 projects for urls: []
+2026-09-28T21:46:54:460 [warning]: There is no GitLab account available. Sending empty credentials to GitLab Language Server
+2026-09-28T21:46:54:462 [debug]: [sandbox] state changed: enabled=true
+2026-09-28T21:46:54:922 [debug]: [sandbox] state changed: enabled=false
+2026-09-28T21:46:55:187 [debug]: [TerminalManager] Terminal ready with shell integration for workflow shell-detection (took 760ms)
+2026-09-28T21:46:55:187 [debug]: [TerminalManager] Started shell execution for workflow shell-detection
+2026-09-28T21:47:01:833 [debug]: [TerminalManager] Shell execution ended for workflow shell-detection with exit code 0
+2026-09-28T21:47:01:833 [debug]: [TerminalManager] Command for workflow shell-detection completed in 6646ms with exit code 0 (2 output chunks)
+2026-09-28T21:47:04:433 [warning]: GitExtensionWrapper is missing repository for file:///c%3A/Users/SNAP
+2026-09-28T21:47:04:434 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T21:47:14:448 [warning]: GitExtensionWrapper is missing repository for file:///c%3A/Users/SNAP
+2026-09-28T21:47:14:448 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T21:47:24:455 [warning]: GitExtensionWrapper is missing repository for file:///c%3A/Users/SNAP
+2026-09-28T21:47:24:456 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T21:47:34:465 [warning]: GitExtensionWrapper is missing repository for file:///c%3A/Users/SNAP
+2026-09-28T21:47:34:465 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T21:47:44:469 [warning]: GitExtensionWrapper is missing repository for file:///c%3A/Users/SNAP
+2026-09-28T21:47:44:469 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T21:47:54:471 [warning]: GitExtensionWrapper is missing repository for file:///c%3A/Users/SNAP
+2026-09-28T21:47:54:471 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T21:47:55:840 [warning]: GitExtensionWrapper is missing repository for file:///c%3A/Users/SNAP
+2026-09-28T21:47:59:262 [info]: Extracted urls: []
+2026-09-28T21:47:59:262 [info]: Found 0 projects for urls: []
+2026-09-28T21:47:59:263 [warning]: There is no GitLab account available. Sending empty credentials to GitLab Language Server
+2026-09-28T21:48:04:486 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T21:48:14:497 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T21:48:24:507 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T21:48:34:511 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T21:48:44:519 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T21:48:54:520 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T21:49:04:533 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T21:49:14:535 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T21:49:24:548 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T21:49:28:960 [error]: Cancelling the GitLab OAuth login after 60s. Try again.
+    Error: Cancelling the GitLab OAuth login after 60s. Try again.
+        at Timeout._onTimeout (c:\Users\SNAP\.antigravity-ide\extensions\src\desktop\accounts\auth_flows\oauth_flow.ts:152:28)
+        at listOnTimeout (node:internal/timers:588:17)
+        at processTimers (node:internal/timers:523:7)
+2026-09-28T21:49:34:549 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T21:49:44:550 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T21:49:54:551 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T21:50:04:560 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T21:50:14:575 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T21:50:24:581 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T21:50:34:586 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T21:50:44:588 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T21:50:54:588 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T21:51:04:591 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T21:51:14:592 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T21:51:24:600 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T21:51:34:605 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T21:51:44:609 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T21:51:54:611 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T21:52:04:621 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T21:52:14:630 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T21:52:24:644 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T21:52:34:653 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T21:52:44:654 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T21:52:54:654 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T21:53:04:658 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T21:53:14:673 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T21:53:24:687 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T21:53:34:687 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T21:53:44:687 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T21:53:54:693 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T21:54:04:704 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T21:54:14:717 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T21:54:24:729 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T21:54:34:730 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T21:54:44:732 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T21:54:54:745 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T21:55:04:759 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T21:55:14:766 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T21:55:24:769 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T21:55:34:784 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T21:55:44:790 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T21:55:54:792 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T21:56:04:801 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T21:56:14:809 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T21:56:24:813 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T21:56:34:816 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T21:56:44:823 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T21:56:54:836 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T21:57:04:845 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T21:57:14:846 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T21:57:24:849 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T21:57:34:853 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T21:57:44:857 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T21:57:54:860 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T21:58:04:860 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T21:58:14:861 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T21:58:24:861 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T21:58:34:863 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T21:58:44:870 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T21:58:54:876 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T21:59:04:890 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T21:59:14:902 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T21:59:24:915 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T21:59:34:918 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T21:59:44:928 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T21:59:54:930 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T22:00:04:932 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T22:00:14:943 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T22:00:24:956 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T22:00:34:957 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T22:00:44:967 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T22:00:54:979 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T22:01:04:991 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T22:01:14:993 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T22:01:25:000 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T22:01:35:014 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T22:01:45:027 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T22:01:55:032 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T22:02:05:047 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T22:02:15:059 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T22:02:25:060 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T22:02:35:069 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T22:02:45:078 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T22:02:55:088 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T22:03:05:098 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T22:03:15:099 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T22:03:25:107 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T22:03:35:121 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T22:03:45:125 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T22:03:55:136 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T22:04:05:138 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T22:04:15:143 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T22:04:25:149 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T22:04:35:162 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T22:04:45:170 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T22:04:55:176 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T22:05:05:182 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T22:05:15:190 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T22:05:25:196 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T22:05:35:198 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T22:05:45:214 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T22:05:55:219 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T22:06:05:232 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T22:06:15:244 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T22:06:25:247 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T22:06:35:255 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T22:06:45:261 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T22:06:55:266 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T22:07:05:272 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T22:07:15:283 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T22:07:25:288 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T22:07:35:289 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T22:07:45:292 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T22:07:55:298 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T22:08:05:306 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T22:08:15:320 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T22:08:25:333 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T22:08:35:332 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T22:08:45:342 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T22:08:55:351 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T22:09:05:352 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T22:09:15:359 [debug]: [auth] Sending empty credentials to language server (no account available)
+2026-09-28T22:09:25:368 [debug]: [auth] Sending empty credentials to language server (no account available)
